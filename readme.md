@@ -4,13 +4,21 @@ A modern web application that converts natural language questions into SQL queri
 ## 🌟Features
 
 ✅ Natural language to SQL query conversion
+
 ✅ Interactive web interface with Streamlit
+
 ✅ FastAPI backend with robust error handling
+
 ✅ Vector similarity search for query examples
+
 ✅ Real-time query execution
+
 ✅ Table schema exploration
+
 ✅ Export results to CSV
+
 ✅ Comprehensive logging
+
 
 ## 🛠️ Technology Stack
 
@@ -84,3 +92,18 @@ streamlit run frontend.py
 
 Frontend: http://localhost:8501
 API docs: http://localhost:8000/docs
+
+## Project Folder Structure 
+
+```bash
+nl2sql-interface/
+├── api.py              # FastAPI application
+├── config.py           # Configuration and initialization
+├── database.py         # Database connection and queries
+├── app.py              # Streamlit user interface
+├── nl2sql.py          # Natural language to SQL conversion
+├── vector_store.py     # Vector storage for examples
+├── requirements.txt    # Project dependencies
+├── README.md          # Project documentation
+└── .env               # Environment variables
+```
