@@ -1,0 +1,26 @@
+# Backend Dependencies
+fastapi
+uvicorn
+python-dotenv
+psycopg2-binary
+langchain
+langchain-groq
+langchain-community4
+qdrant-client
+sentence-transformers
+# Frontend Dependencies
+streamlit
+pandas
+plotly
+requests
+# Development Dependencies
+python-multipart
+pydantic
+typing-extensions
+python-jose
+passlib
+bcrypt
+# Testing Dependencies
+pytest
+httpx
+pytest-asyncio

@@ -1,0 +1,5 @@
+.env
+__pycache__
+app1.py
+dbconnect.ipynb
+
