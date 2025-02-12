@@ -86,7 +86,7 @@ uvicorn api:app --reload
 2. In a new terminal, start the Streamlit frontend:
 
 ```bash
-streamlit run frontend.py
+streamlit run app.py
 ```
 
 3. Open your browser and navigate to:
