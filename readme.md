@@ -56,7 +56,8 @@ A modern web application that converts natural language questions into SQL queri
 ```bash 
    -m venv venv
 ```
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+- source venv/bin/activate  
+- On Windows: venv\Scripts\activate
 
 3. Install dependencies:
 
@@ -90,13 +91,13 @@ streamlit run frontend.py
 
 3. Open your browser and navigate to:
 
-Frontend: http://localhost:8501
-API docs: http://localhost:8000/docs
+- Frontend: http://localhost:8501
+- API docs: http://localhost:8000/docs
 
 ## Project Folder Structure 
 
 ```bash
-nl2sql-interface/
+NL2SQL
 ├── api.py              # FastAPI application
 ├── config.py           # Configuration and initialization
 ├── database.py         # Database connection and queries

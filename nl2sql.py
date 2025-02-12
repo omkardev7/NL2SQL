@@ -24,7 +24,7 @@ def create_sql_chain(schema: str, examples: list):
         
         User question: {question}
         
-        Return only the SQL query without any explanation or special characters.
+        Return only the SQL query without any explanation or special characters.You should add semicolon at the end of the query.
         """)
         
         chain = (
